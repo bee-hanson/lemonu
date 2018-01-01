@@ -10,6 +10,7 @@ import UIKit
 
 class LemonProfileViewController: UIViewController {
 
+    // git test 
     @IBOutlet weak var sendMessageButton: UIButton!
     @IBOutlet weak var sendRequestButton: UIButton!
     
