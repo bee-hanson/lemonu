@@ -23,8 +23,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AanTestUser" translatesAutoresizingMaskIntoConstraints="NO" id="hYb-nI-4bx">
-                                <rect key="frame" x="0.0" y="187" width="375" height="555"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AanTestUser" translatesAutoresizingMaskIntoConstraints="NO" id="hYb-nI-4bx">
+                                <rect key="frame" x="0.0" y="225" width="375" height="582"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Los Angeles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUN-U4-nta">
                                 <rect key="frame" x="127" y="579" width="76" height="20"/>
@@ -49,7 +49,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SimpleSimonSquare" translatesAutoresizingMaskIntoConstraints="NO" id="Yjy-bW-yMR">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SimpleSimonSquare" translatesAutoresizingMaskIntoConstraints="NO" id="Yjy-bW-yMR">
                                                     <rect key="frame" x="20" y="8" width="60" height="60"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="60" id="NFU-sb-vAL"/>
@@ -142,13 +142,13 @@
                             <constraint firstItem="GsD-lp-sCW" firstAttribute="centerX" secondItem="DrP-We-Uhc" secondAttribute="centerX" id="9xJ-Ax-WaJ"/>
                             <constraint firstItem="jNi-WM-aNo" firstAttribute="height" secondItem="DrP-We-Uhc" secondAttribute="height" multiplier="0.18" id="BSM-eg-hBu"/>
                             <constraint firstItem="stN-bo-ED4" firstAttribute="leading" secondItem="uXl-Vh-F5D" secondAttribute="leading" constant="30" id="CB5-lP-oyj"/>
-                            <constraint firstAttribute="bottom" secondItem="hYb-nI-4bx" secondAttribute="bottom" constant="-75" id="DEZ-FD-19g"/>
                             <constraint firstItem="nHU-UQ-gCQ" firstAttribute="centerY" secondItem="FUN-U4-nta" secondAttribute="centerY" id="FBK-FH-TWm"/>
                             <constraint firstItem="3Nr-8H-hrO" firstAttribute="top" secondItem="jNi-WM-aNo" secondAttribute="bottom" constant="26" id="LHD-jz-1RA"/>
                             <constraint firstItem="hYb-nI-4bx" firstAttribute="leading" secondItem="uXl-Vh-F5D" secondAttribute="leading" id="OmL-dS-0Nm"/>
                             <constraint firstItem="hYb-nI-4bx" firstAttribute="trailing" secondItem="uXl-Vh-F5D" secondAttribute="trailing" id="PYt-Ft-quf"/>
                             <constraint firstItem="bxq-hx-kcQ" firstAttribute="centerX" secondItem="DrP-We-Uhc" secondAttribute="centerX" id="RzT-bQ-mR5"/>
-                            <constraint firstItem="hYb-nI-4bx" firstAttribute="top" secondItem="jNi-WM-aNo" secondAttribute="bottom" constant="-38" id="UnI-uY-fpT"/>
+                            <constraint firstAttribute="bottom" secondItem="hYb-nI-4bx" secondAttribute="bottom" constant="-140" id="TqB-Ri-LwX"/>
+                            <constraint firstItem="hYb-nI-4bx" firstAttribute="top" secondItem="jNi-WM-aNo" secondAttribute="bottom" id="WIM-aC-CjH"/>
                             <constraint firstItem="nHU-UQ-gCQ" firstAttribute="leading" secondItem="uXl-Vh-F5D" secondAttribute="leading" constant="30" id="Xrr-8W-JaL"/>
                             <constraint firstItem="bxq-hx-kcQ" firstAttribute="top" secondItem="GsD-lp-sCW" secondAttribute="bottom" constant="18" id="dI5-Tc-UgQ"/>
                             <constraint firstItem="uXl-Vh-F5D" firstAttribute="trailing" secondItem="stN-bo-ED4" secondAttribute="trailing" constant="50" id="dPM-Ri-jfp"/>
@@ -397,8 +397,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SimpleSimon" translatesAutoresizingMaskIntoConstraints="NO" id="EN6-my-0VB">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="586"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SimpleSimon" translatesAutoresizingMaskIntoConstraints="NO" id="EN6-my-0VB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="567"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Los Angeles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIP-nM-wGE">
                                 <rect key="frame" x="73" y="517" width="76" height="20"/>
@@ -437,6 +437,9 @@
                                         <state key="normal" title="Send Video Message">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="recordVideoMessageTapped:" destination="c86-Pf-2c9" eventType="touchUpInside" id="OlV-H1-nNq"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.79607843140000001" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
@@ -472,7 +475,7 @@
                             <constraint firstItem="AaA-mK-R73" firstAttribute="top" secondItem="yBn-JO-3ig" secondAttribute="bottom" constant="30" id="NkF-vq-YdX"/>
                             <constraint firstItem="pIP-nM-wGE" firstAttribute="top" secondItem="CcP-UQ-zXx" secondAttribute="bottom" constant="6" id="Orp-RF-cc6"/>
                             <constraint firstItem="EN6-my-0VB" firstAttribute="top" secondItem="qUz-Bp-GCL" secondAttribute="top" id="h2g-9d-fL4"/>
-                            <constraint firstItem="AaA-mK-R73" firstAttribute="top" secondItem="EN6-my-0VB" secondAttribute="bottom" constant="-19" id="jOC-5Y-4Yi"/>
+                            <constraint firstItem="AaA-mK-R73" firstAttribute="top" secondItem="EN6-my-0VB" secondAttribute="bottom" id="jOC-5Y-4Yi"/>
                             <constraint firstItem="4X2-Xg-Zjm" firstAttribute="top" secondItem="kWh-us-ICj" secondAttribute="top" id="lQU-xO-TsX"/>
                             <constraint firstItem="yBn-JO-3ig" firstAttribute="leading" secondItem="kWh-us-ICj" secondAttribute="leading" constant="24" id="vgy-1g-1wn"/>
                             <constraint firstAttribute="bottom" secondItem="AaA-mK-R73" secondAttribute="bottom" id="wGb-i2-o0b"/>
@@ -528,7 +531,6 @@
         <image name="YellowDot" width="60" height="57"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bgG-c8-16b"/>
         <segue reference="zvZ-w5-CUu"/>
     </inferredMetricsTieBreakers>
 </document>

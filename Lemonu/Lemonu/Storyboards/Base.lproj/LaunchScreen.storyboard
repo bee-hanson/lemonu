@@ -17,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GradientBackground" translatesAutoresizingMaskIntoConstraints="NO" id="DeN-1d-mmX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GradientBackground" translatesAutoresizingMaskIntoConstraints="NO" id="DeN-1d-mmX">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoWithTitle" translatesAutoresizingMaskIntoConstraints="NO" id="B4P-S2-e6t">
                                 <rect key="frame" x="37" y="208" width="300" height="250"/>
@@ -31,8 +30,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="DeN-1d-mmX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DYE-1s-5b4"/>
+                            <constraint firstItem="DeN-1d-mmX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UuM-j3-6iG"/>
+                            <constraint firstItem="DeN-1d-mmX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Y8V-ge-9xk"/>
                             <constraint firstItem="B4P-S2-e6t" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ddI-7U-bx3"/>
                             <constraint firstItem="B4P-S2-e6t" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="pEq-D7-5Yl"/>
+                            <constraint firstItem="DeN-1d-mmX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="utu-lT-gGl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
